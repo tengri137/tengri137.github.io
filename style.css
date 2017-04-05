@@ -1,0 +1,46 @@
+* {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #111;
+    text-align: center;
+    color: #fff;
+}
+
+#box, #res {
+    border: 0;
+    padding: 10px;
+    resize: none;
+    background: #222;
+    color: #fff;
+    display: inline-block;
+    width: 700;
+}
+
+#box {
+    height: 400px;
+}
+
+#res {
+    height: 200px;
+}
+
+#check, #clear {
+    border: 0;
+    color: #fff;
+    background: #333;
+    margin: 10px 0px;
+    padding: 7px;
+}
+
+#check {
+    font-weight: bold;
+}
+
+#title {
+    margin: 15px;
+}

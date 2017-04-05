@@ -1,1 +1,21 @@
-Hi
+<head>
+    <script src="openpgp.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
+    <title>Tengri 137 signature verifier</title>
+</head>
+<body>
+    <h1 id="title">A Tengri 137 signature verifier for the lazy and the incapable.</h1>
+    <div>
+        <textarea id="box" placeholder="Put the PGP-signed message here. (It should start with -----BEGIN PGP SIGNED MESSAGE----- ...)"></textarea>
+    </div>
+    <div>
+        <input type="button" id="check" value="Check signature">
+        <input type="button" id="clear" value="Clear">
+    </div>
+    <div>
+        <textarea id="res" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
